@@ -1,0 +1,12 @@
+{
+  "name": "chat-app-root",
+  "private": true,
+  "workspaces": [
+    "chat-app"
+  ],
+  "scripts": {
+    "dev": "npm --prefix chat-app run dev",
+    "build": "npm --prefix chat-app run build",
+    "preview": "npm --prefix chat-app run preview"
+  }
+}
